@@ -10,9 +10,9 @@
 
 # Select year for parsing
 academic_year = "2022" # Set the academic year (2012 refers to 2011-2012 season). As of writing, this can range from 2010 to 2013.
-yearIndexDict ={"2019":"14280","2018":"12623","2017":"12424",
-                "2016":"12240","2015":"11980","2014":"11520",
-                "2012":"11262","2011":"12723","2010":"13799"}
+yearIndexDict ={"2022":"15881","2021":"15480","2020":"15061","2019":"14300","2018":"12620","2017":"12480",
+                "2016":"12260","2015":"12020","2014":"11540","2013" : "11220" ,
+                "2012":"10740","2011":"10440","2010":"10260"}
 
 year_index = yearIndexDict[academic_year] 
 
@@ -24,7 +24,7 @@ map_players = 1 # Create a player mapping (0 = no, 1 = yes)
 ind_game_stats = 1 # Get individual game statistics (0 = no, 1 = yes)
 ind_player_stats = 1 # Get individual player statistics (0 = no, 1 = yes)
 ind_team_stats = 1 # Get individual team statistics (a line per team, such that each game will have two lines (one for away team, one for home team)) (0 = no, 1 = yes)
-ind_game_score = 1 #
+ind_game_score = 1 # 
 tstats = 1 # Get Team stats (From mainpage)
 summary_teams = 1
 division = 11
